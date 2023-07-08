@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FFC0CB;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: #FFF8DC;
+    font-family: sans-serif;
+    font-size: 6vw;
+    text-align: center;
+    margin-top: 20px;
+}
+
+table.iksweb {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    height: auto;
+}
+
+table.iksweb, table.iksweb td {
+    border: 5px solid #DA70D6;
+    font-size: 2vw;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+table.iksweb td {
+    padding: 10px;
+    width: 25%;
+    height: 35px;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 24px;
+    }
+
+    table.iksweb, table.iksweb td {
+        font-size: 14px;
+    }
+}
